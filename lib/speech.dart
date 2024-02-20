@@ -15,7 +15,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
   String lastWords = '';
 
   void initSpeech() async {
-    speechEnabled = await speechToText.initialize();`
+    speechEnabled = await speechToText.initialize();
     setState(() {});
   }
 
